@@ -4,7 +4,7 @@
 
 (defun open-my-init-file ()
   (interactive)
-  (find-file "~/.lmzemacs.d/init.el"))
+  (find-file "~/.emacs.d/init.el"))
 
 (global-set-key (kbd "<f2>") 'open-init-file)
 (global-set-key (kbd "<f3>") 'open-my-init-file)

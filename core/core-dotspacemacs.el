@@ -15,7 +15,7 @@ Spacemacs.")
          (env-dir (when env (expand-file-name (concat env "/"))))
          (no-env-dir-default (expand-file-name
                               (concat user-home-directory
-                                      ".lmzemacs.d/"))))
+                                      ".emacs.d/"))))
     (cond
      ((and env (file-exists-p env-dir))
       env-dir)
